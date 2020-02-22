@@ -7,7 +7,7 @@
   <body>
     <div id="api-info-block"></div>
     <h1>Parent</h1>
-    <pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">Parent</span> <span class="keyword">implements</span> <span class="identifier">java.lang.Object</span></pre>
+    <pre><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">Parent</span></pre>
     <table class="jd-inheritance-table">
       <tr>
         <td class="jd-inheritance-class-cell" colSpan="1"><a href="#">Parent</a></td>
@@ -46,7 +46,7 @@
         </tr>
         <tr>
           <td>
-            <div><code><a href="#Parent()">Parent</a>()</code></div>
+            <div><code><a href="#%3Cinit%3E()">&lt;init&gt;</a>()</code></div>
             <p></p>
           </td>
         </tr>
@@ -62,25 +62,39 @@
           </th>
         </tr>
         <tr>
-          <td><span class="identifier">void</span></td>
+          <td><span class="keyword">open</span> <span class="identifier">Unit</span></td>
+          <td>
+            <div><code><a href="#baz()">baz</a>()</code></div>
+            <p>Do a superclass baz</p>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="keyword">open</span> <span class="identifier">Unit</span></td>
           <td>
             <div><code><a href="#foo()">foo</a>()</code></div>
-            <p></p>
+            <p>Do a superclass foo</p>
           </td>
         </tr>
       </tbody>
     </table>
     <h2>Public constructors</h2>
-<a name="Parent()"></a>
+<a name="%3Cinit%3E()"></a>
     <div class="api apilevel-" data-version-added="">
-      <h3 class="api-name">Parent</h3>
-      <pre class="api-signature no-pretty-print"><span class="keyword">public</span> <span class="identifier">Parent</span><span class="symbol">(</span><span class="symbol">)</span></pre>
+      <h3 class="api-name">&lt;init&gt;</h3>
+      <pre class="api-signature no-pretty-print"><span class="identifier">Parent</span><span class="symbol">(</span><span class="symbol">)</span></pre>
     </div>
     <h2>Public methods</h2>
+<a name="baz()"></a>
+    <div class="api apilevel-" data-version-added="">
+      <h3 class="api-name">baz</h3>
+      <pre class="api-signature no-pretty-print"><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">baz</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></pre>
+      <p>Do a superclass baz</p>
+    </div>
 <a name="foo()"></a>
     <div class="api apilevel-" data-version-added="">
       <h3 class="api-name">foo</h3>
-      <pre class="api-signature no-pretty-print"><span class="keyword">public</span> <span class="identifier">void</span> <span class="identifier">foo</span><span class="symbol">(</span><span class="symbol">)</span></pre>
+      <pre class="api-signature no-pretty-print"><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">foo</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></pre>
+      <p>Do a superclass foo</p>
     </div>
   </body>
 </html>
